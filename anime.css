@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+@keyframes manisha{
+    from{
+transform:translateX(300px);
+    }
+    to{
+        transform: translate(0);
+
+    }
+}
+
+.anime{
+    animation-name:manisha;
+    animation-duration: 5s;
+    animation-timing-function:ease-in ;
+    animation-delay:0s ;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+    animation-fill-mode:none ;
+    transform:translateX(-150px);
+
+}
+@keyframes cars{
+    from{
+        transform:translateX(200px);
+           }
+            to{
+                transform: translate(0);
+        
+            }
+        }
+        
+        .anime2{
+            animation-name:cars;
+            animation-duration: 5s;
+            animation-timing-function:ease-in ;
+            animation-delay:0s ;
+            animation-iteration-count: 3;
+            animation-direction: reverse;
+            animation-fill-mode:none ;
+            transform:translateX(-150px);
+        
+        }
+
+        @keyframes carsp{
+            from{
+                transform:translateX(700px);
+                    }
+                    to{
+                        transform: translate(0);
+                
+                    }
+                }
+                
+                .anime3{
+                    animation-name:carsp;
+                    animation-duration: 5s;
+                    animation-timing-function:ease-in ;
+                    animation-delay:0s ;
+                    animation-iteration-count: 3;
+                    animation-direction: reverse;
+                    animation-fill-mode:none ;
+                    transform:translateX(-150px);
+                
+                }
